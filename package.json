@@ -1,0 +1,39 @@
+{
+  "name": "dsh-image-ocr",
+  "version": "1.0.0",
+  "description": "Offline OCR tool for DeepSeek Harness: let any text-only model read the text in a pasted image. No network, no API key, no model server.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "python/pasted_image.py",
+    "python/image_read.py",
+    "locale/*.json",
+    "icon.svg",
+    "setup.ps1",
+    "setup.sh",
+    "tests/selftest.mjs",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "ocr",
+    "vision",
+    "rapidocr"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

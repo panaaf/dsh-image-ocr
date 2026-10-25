@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Offline Image OCR (image_ocr)",
+    "description": "Give any text-only model an eye: turn pasted screenshots, error messages, tables and code photos into plain text. Fully offline, no API key, no model server; the OCR models ship inside the rapidocr wheel."
+  }
+}

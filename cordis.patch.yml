@@ -1,0 +1,8 @@
+# 一个插件行，一个能力：把图片变成文字（离线 OCR）。
+#
+# 不覆盖 DSH 的任何内置行，也不注册搜索/视觉相关的服务——
+# 装上它只多一个工具：image_ocr。
+- insert:
+    - id: dsh-image-ocr
+      name: 'dsh-image-ocr'
+      config: {}
