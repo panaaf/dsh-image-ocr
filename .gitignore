@@ -1,0 +1,16 @@
+# 自带的 Python 环境（约 285 MB，含 rapidocr 的 OCR 模型）不进仓库：
+# 克隆方用 setup.ps1（Windows）或 setup.sh（macOS/Linux）就地重建。
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 插件运行时的诊断日志
+*.log
+
+# 编辑器 / 系统噪音
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+node_modules/
